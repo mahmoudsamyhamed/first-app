@@ -5,14 +5,12 @@ import 'image_changer.dart';
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
-class MyContainer extends StatelessWidget{
+class GradientContainer extends StatelessWidget{
 
-  const MyContainer(this.clr, {super.key});
+  const GradientContainer(this.clr, {super.key});
 
   final List<Color> clr;
   final Color txtColor = const Color.fromARGB(255, 255, 255, 255);
-
-
 
   @override
   Widget build(context)
